@@ -1,20 +1,23 @@
 
-function resul(){
-const Real = parseFloat(document.getElementById("real").value);
+function Calcular(){
+const result = document.getElementById("result");
+const Calcular = document.getElementById("buton");
+const Real = parseFloat(document.getElementById("Real").value);
+
 var  Dolar = parseFloat(document.getElementById("num1").value);
 var  Euro  = parseFloat(document.getElementById("num2").value);
 var  Libra = parseFloat(document.getElementById("num3").value);
-const result = document.getElementById("result");
-const Calcular = document.getElementById("buton");
 
-result = Real / Dolar;
-
-
+result.innerHTML = Real / Dolar;
+result.innerHTML = Real / Libra;
+result.innerHTML = Real / Euro;
 
 
 
 
-    document.getElementById("result").value = result;
+
+
+   
 
 }
 //selectt = document.getElementById("selectt");
