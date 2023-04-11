@@ -1,0 +1,40 @@
+*{
+    align-items: center;
+    display: inline-flexbox;
+}
+.container{
+    max-width:50%;
+}
+
+#num2 {
+    
+position: relative;
+left: 200px ;
+bottom: 1px;
+
+
+
+}
+#num3 {
+    
+    position: relative;
+    left: 400px ;
+    bottom: 32px;
+    
+    
+    
+    }
+    #num1 {
+    
+        position: relative;
+       
+        top: 30px;
+        
+        
+        
+        }
+    body{
+
+
+        
+    }
