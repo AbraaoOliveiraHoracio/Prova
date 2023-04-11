@@ -1,16 +1,18 @@
 *{
     align-items: center;
     display: inline-flexbox;
+    border: 5px;
+   
+    border-radius: 10px;
+    borde
 }
-.container{
-    max-width:50%;
-}
+
 
 #num2 {
     
 position: relative;
 left: 200px ;
-bottom: 1px;
+top: 3px;
 
 
 
@@ -18,8 +20,8 @@ bottom: 1px;
 #num3 {
     
     position: relative;
-    left: 400px ;
-    bottom: 32px;
+    left: 390px ;
+    bottom: 23px;
     
     
     
@@ -28,13 +30,17 @@ bottom: 1px;
     
         position: relative;
        
-        top: 30px;
+        top: 29px;
         
         
         
         }
-    body{
+    .TT{
+        background-color: rgba(100, 95, 95, 0.542);
 
-
+    }
+    .container{
         
+       padding: 10px;
+       
     }
